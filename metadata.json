@@ -1,0 +1,6 @@
+
+{
+  "name": "Elysian - Premium Portfolio 2026",
+  "description": "A high-end, editorial-style personal portfolio for creative professionals, featuring smooth animations and an integrated AI portfolio assistant.",
+  "requestFramePermissions": ["camera", "microphone"]
+}
