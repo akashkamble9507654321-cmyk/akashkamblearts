@@ -17,7 +17,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
   { id: 'c6', title: 'Garden Cha Raja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/p6K2jSBM/gkr.jpg', description: 'Exploring patterns of growth in generative systems.' },
   { id: 'c7', title: 'Mumbai Cha Ladka Shubhankar 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/zVww0jYC/mcls.jpg', description: 'Interstellar debris reimagined as digital sculpture.' },
   { id: 'c8', title: 'Narayan Cha Raja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/YBDhPBKH/nncr.jpg', description: 'Distorting time through sequential visual frames.' },
-  { id: 'c9', title: 'Void Theory', category: 'conceptual', imageUrl: 'https://picsum.photos/seed/c9/950/950', description: 'Minimalist exploration of negative space and presence.' },
+  { id: 'c9', title: 'Babaria Cha Ballaleshwar 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/84zGk2DF/bcb.jpg', description: 'Minimalist exploration of negative space and presence.' },
   
   // Portrait - 6 items
   { id: 'p1', title: 'Aurelia', category: 'portrait', imageUrl: 'https://picsum.photos/seed/p1/800/1000', description: 'Natural lighting study of character and resilience.' },
