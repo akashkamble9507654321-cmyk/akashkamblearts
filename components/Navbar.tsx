@@ -79,7 +79,7 @@ const Navbar: React.FC = () => {
                 </a>
               ))}
               <a 
-                href="mailto:studio@elysian.vision"
+                href="#"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="bg-black text-white text-center py-4 font-bold uppercase tracking-widest text-xs"
               >
