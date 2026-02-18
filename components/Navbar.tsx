@@ -1,4 +1,3 @@
-import logo from "../public/colour.png";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
@@ -19,7 +18,9 @@ const Navbar: React.FC = () => {
   return (
     <nav 
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/80 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'
+        isScrolled 
+          ? 'bg-white/80 backdrop-blur-md shadow-sm py-4' 
+          : 'bg-transparent py-6'
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
@@ -27,9 +28,9 @@ const Navbar: React.FC = () => {
         {/* LOGO */}
         <a href="#" className="flex items-center">
           <img 
-            src="/colour.png" 
-            alt="Logo" 
-            className="h-32 w-32"
+            src="/colour.png"
+            alt="Logo"
+            className="h-10 md:h-14 lg:h-16 w-auto object-contain"
           />
         </a>
 
