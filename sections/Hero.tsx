@@ -92,7 +92,7 @@ const Hero: React.FC = () => {
             </motion.a>
             
             <motion.a
-              href="mailto:studio@elysian.vision"
+              href="https://wa.me/+918591747530"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="border border-neutral-200 px-10 py-5 text-xs font-bold uppercase tracking-widest hover:border-black transition-colors"
