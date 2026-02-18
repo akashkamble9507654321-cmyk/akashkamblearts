@@ -28,10 +28,10 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
   { id: 'p6', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/21LpkHNT/commissionedwork6.jpg' },
   
   // Graphics - 9 items
-  { id: 'g1', title: 'Neo-Tokyo 2044', category: 'graphics', imageUrl: 'https://picsum.photos/seed/g1/800/1200', description: 'Cinematic poster design for a speculative future.' },
-  { id: 'g2', title: 'Vanguard Music Festival', category: 'graphics', imageUrl: 'https://picsum.photos/seed/g2/800/1100', description: 'Experimental typography and vibrant color scales.' },
-  { id: 'g3', title: 'Minimalist Branding', category: 'graphics', imageUrl: 'https://picsum.photos/seed/g3/800/800', description: 'Identity system for an high-end luxury atelier.' },
-  { id: 'g4', title: 'Cyber-Noir Series', category: 'graphics', imageUrl: 'https://picsum.photos/seed/g4/800/1200', description: 'Digital illustration exploring high-contrast futuristic aesthetics.' },
+  { id: 'g1', title: 'Neo-Tokyo 2044', category: 'graphics', imageUrl: 'https://i.ibb.co/CKm5phRL/p1.jpg', description: 'Cinematic poster design for a speculative future.' },
+  { id: 'g2', title: 'Vanguard Music Festival', category: 'graphics', imageUrl: 'https://i.ibb.co/hFR29VZ9/p3.jpg', description: 'Experimental typography and vibrant color scales.' },
+  { id: 'g3', title: 'Minimalist Branding', category: 'graphics', imageUrl: 'https://i.ibb.co/fGDS54xp/p2.jpg', description: 'Identity system for an high-end luxury atelier.' },
+  { id: 'g4', title: 'Cyber-Noir Series', category: 'graphics', imageUrl: 'https://i.ibb.co/KcCbyZj8/p4.jpg', description: 'Digital illustration exploring high-contrast futuristic aesthetics.' },
   { id: 'g5', title: 'Liquid Motion Identity', category: 'graphics', imageUrl: 'https://picsum.photos/seed/g5/1000/1000', description: 'Fluid branding for a cutting-edge motion studio.' },
   { id: 'g6', title: 'Eclipse Editorial', category: 'graphics', imageUrl: 'https://picsum.photos/seed/g6/800/1150', description: 'High-fashion editorial layout with brutalist graphic elements.' },
   { id: 'g7', title: 'Synthwave Reverie', category: 'graphics', imageUrl: 'https://picsum.photos/seed/g7/1100/1100', description: 'Nostalgic graphics with a 2026 technical twist.' },
