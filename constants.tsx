@@ -22,7 +22,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
   // Portrait - 6 items
   { id: 'p1', title: 'Aurelia', category: 'portrait', imageUrl: 'https://picsum.photos/seed/p1/800/1000', description: 'Natural lighting study of character and resilience.' },
   { id: 'p2', title: 'The Architect', category: 'portrait', imageUrl: 'https://picsum.photos/seed/p2/800/800', description: 'Reflection of a creator within their creation.' },
-  { id: 'p3', title: 'Urban Solace', category: 'portrait', imageUrl: 'https://picsum.photos/seed/p3/1000/800', description: 'Finding stillness in the heart of metropolitan chaos.' },
+  { id: 'p3', title: 'Urban Solace', category: 'portrait', imageUrl: 'https://i.ibb.co/Zzcmh1W5/commissionedwork1.jpg', description: 'Finding stillness in the heart of metropolitan chaos.' },
   { id: 'p4', title: 'Modern Muse', category: 'portrait', imageUrl: 'https://picsum.photos/seed/p4/800/1100', description: 'The intersection of fashion and identity.' },
   { id: 'p5', title: 'Indigo Gaze', category: 'portrait', imageUrl: 'https://picsum.photos/seed/p5/800/1200', description: 'Depth of focus study centered on emotive connection.' },
   { id: 'p6', title: 'Serene Resilience', category: 'portrait', imageUrl: 'https://picsum.photos/seed/p6/900/1000', description: 'A portrait of strength found in quiet moments.' },
