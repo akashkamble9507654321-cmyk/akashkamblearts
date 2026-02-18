@@ -39,8 +39,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="max-w-2xl text-lg md:text-xl text-neutral-500 leading-relaxed font-light"
           >
-            Crafting immersive digital experiences and visual narratives that bridge the gap between 
-            human intuition and technological precision. Branding, sketches, and cinematic graphics for the 2026 landscape.
+            Rooted in culture. Designed for impact. Crafted to be unforgettable.
           </motion.p>
 
           <motion.div
