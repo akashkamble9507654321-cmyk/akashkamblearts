@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
           <img 
             src="/colour.png"
             alt="Logo"
-            className="h-10 md:h-14 lg:h-16 w-auto"
+            className="h-08 md:h-12 lg:h-14 w-auto"
           />
         </a>
 
