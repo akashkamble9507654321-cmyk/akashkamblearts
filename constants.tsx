@@ -10,9 +10,9 @@ export const NAV_ITEMS: NavItem[] = [
 export const PORTFOLIO_DATA: PortfolioItem[] = [
   // Conceptual - 9 items
   { id: 'c1', title: 'Dharavi Cha Sukhkarta 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/C5PG1sV2/dcs.jpg', description: 'Exploring the boundary between consciousness and digital space.' },
-  { id: 'c2', title: 'Malwani Cha Maharaja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/v4LjJS3x/mcm.jpg', description: 'A study on architectural permanence in shifting landscapes.' },
-  { id: 'c3', title: 'Khetwadi Cha Raja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/mrwfNVZL/kcr.jpg', description: 'Organic shapes interpreted through a mathematical lens.' },
-  { id: 'c4', title: 'Silent Kinetic', category: 'conceptual', imageUrl: 'https://picsum.photos/seed/c4/800/1200', description: 'Capturing movement within static mediums.' },
+  { id: 'c2', title: 'Khetwadi Cha Raja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/mrwfNVZL/kcr.jpg', description: 'A study on architectural permanence in shifting landscapes.' },
+  { id: 'c3', title: 'Malwani Cha Maharaja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/v4LjJS3x/mcm.jpg', description: 'Organic shapes interpreted through a mathematical lens.' },
+  { id: 'c4', title: 'Grantroad Cha Mahaganpati 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/7xkkQzHV/gcm.jpg', description: 'Capturing movement within static mediums.' },
   { id: 'c5', title: 'Atmospheric Drift', category: 'conceptual', imageUrl: 'https://picsum.photos/seed/c5/900/900', description: 'A visualization of particulate matter and memory.' },
   { id: 'c6', title: 'Recursive Origins', category: 'conceptual', imageUrl: 'https://picsum.photos/seed/c6/800/1100', description: 'Exploring patterns of growth in generative systems.' },
   { id: 'c7', title: 'Nebula Fragments', category: 'conceptual', imageUrl: 'https://picsum.photos/seed/c7/1100/800', description: 'Interstellar debris reimagined as digital sculpture.' },
