@@ -21,11 +21,11 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
   
   // Portrait - 6 items
   { id: 'p1', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/RGvYgP13/commissionedwork4.jpg' },
-  { id: 'p2', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/wNxLSB7b/commissionedwork5.jpg', description: 'Reflection of a creator within their creation.' },
-  { id: 'p3', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/Zzcmh1W5/commissionedwork1.jpg', description: 'Finding stillness in the heart of metropolitan chaos.' },
-  { id: 'p4', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/KpTws8v2/commissionedwork2.jpg', description: 'The intersection of fashion and identity.' },
-  { id: 'p5', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/tPXvfqBC/commissionedwork3.jpg', description: 'Depth of focus study centered on emotive connection.' },
-  { id: 'p6', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/21LpkHNT/commissionedwork6.jpg', description: 'A portrait of strength found in quiet moments.' },
+  { id: 'p2', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/wNxLSB7b/commissionedwork5.jpg' },
+  { id: 'p3', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/Zzcmh1W5/commissionedwork1.jpg' },
+  { id: 'p4', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/KpTws8v2/commissionedwork2.jpg' },
+  { id: 'p5', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/tPXvfqBC/commissionedwork3.jpg' },
+  { id: 'p6', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/21LpkHNT/commissionedwork6.jpg' },
   
   // Graphics - 9 items
   { id: 'g1', title: 'Neo-Tokyo 2044', category: 'graphics', imageUrl: 'https://picsum.photos/seed/g1/800/1200', description: 'Cinematic poster design for a speculative future.' },
