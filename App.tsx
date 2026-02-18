@@ -46,7 +46,7 @@ const App: React.FC = () => {
             <div className="max-w-7xl mx-auto">
               <SectionHeader
                 title="Conceptual Sketches"
-                subtitle="Abstract Narratives & Form Studies"
+                subtitle="Culturally Rooted Conceptual Artworks"
               />
               <ImageGrid
                 items={conceptualItems}
@@ -64,7 +64,7 @@ const App: React.FC = () => {
             <div className="max-w-7xl mx-auto">
               <SectionHeader
                 title="Portraits"
-                subtitle="The Human Condition Rendered"
+                subtitle="Portrait Art That Preserves Identity"
               />
               <ImageGrid
                 items={portraitItems}
@@ -82,7 +82,7 @@ const App: React.FC = () => {
             <div className="max-w-7xl mx-auto">
               <SectionHeader
                 title="Graphics Work"
-                subtitle="Visual Identity & Cinematic Posters"
+                subtitle="Where Ideas Take Shape"
               />
               <ImageGrid
                 items={graphicsItems}
