@@ -1,3 +1,4 @@
+import logo from "../public/newlogoforme.png";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
