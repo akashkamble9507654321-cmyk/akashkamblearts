@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
         {/* LOGO */}
         <a href="#" className="flex items-center">
           <img 
-            src="/logo.png" 
+            src="/newlogoforme.png" 
             alt="Logo" 
             className="h-8 w-auto"
           />
