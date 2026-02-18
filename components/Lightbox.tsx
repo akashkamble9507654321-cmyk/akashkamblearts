@@ -58,7 +58,7 @@ const Lightbox: React.FC<LightboxProps> = ({ item, onClose }) => {
             </p>
             <div className="h-px w-24 bg-neutral-200" />
             <p className="text-sm text-neutral-400 italic">
-              Project Case Study Available Upon Request
+              
             </p>
           </motion.div>
         </div>
