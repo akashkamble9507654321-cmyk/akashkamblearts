@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
@@ -23,8 +22,14 @@ const Navbar: React.FC = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
-        <a href="#" className="text-xl font-bold tracking-tighter uppercase">
-          akash<span className="text-neutral-400">.</span>
+        
+        {/* LOGO */}
+        <a href="#" className="flex items-center">
+          <img 
+            src="/logo.png" 
+            alt="Logo" 
+            className="h-8 w-auto"
+          />
         </a>
 
         {/* Desktop Nav */}
