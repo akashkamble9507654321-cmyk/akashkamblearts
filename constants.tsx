@@ -10,7 +10,7 @@ export const NAV_ITEMS: NavItem[] = [
 export const PORTFOLIO_DATA: PortfolioItem[] = [
   // Conceptual - 9 items
   { id: 'c1', title: 'Dharavi Cha Sukhkarta 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/C5PG1sV2/dcs.jpg', description: 'Exploring the boundary between consciousness and digital space.' },
-  { id: 'c2', title: 'Monolithic Echoes', category: 'conceptual', imageUrl: 'https://picsum.photos/seed/c2/800/800', description: 'A study on architectural permanence in shifting landscapes.' },
+  { id: 'c2', title: 'Malwani Cha Maharaja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/v4LjJS3x/mcm.jpg', description: 'A study on architectural permanence in shifting landscapes.' },
   { id: 'c3', title: 'Fluid Geometry', category: 'conceptual', imageUrl: 'https://picsum.photos/seed/c3/1000/800', description: 'Organic shapes interpreted through a mathematical lens.' },
   { id: 'c4', title: 'Silent Kinetic', category: 'conceptual', imageUrl: 'https://picsum.photos/seed/c4/800/1200', description: 'Capturing movement within static mediums.' },
   { id: 'c5', title: 'Atmospheric Drift', category: 'conceptual', imageUrl: 'https://picsum.photos/seed/c5/900/900', description: 'A visualization of particulate matter and memory.' },
