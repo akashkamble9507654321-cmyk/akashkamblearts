@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-16 mb-32">
           <div className="max-w-md">
-            <h2 className="heading-font text-5xl mb-8 tracking-tight">Let's create something <span className="italic">exceptional</span> together.</h2>
+            <h2 className="heading-font text-5xl mb-8 tracking-tight">Let's create something <span className="italic">creative</span> together.</h2>
             <a 
               href="mailto:studio@elysian.vision" 
               className="text-xl md:text-2xl font-light underline underline-offset-8 hover:text-neutral-400 transition-colors"
