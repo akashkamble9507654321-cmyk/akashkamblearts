@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="max-w-2xl text-lg md:text-xl text-neutral-500 leading-relaxed font-light"
           >
-            Rooted in culture. Designed for impact. Crafted to be unforgettable.
+            Rooted in culture. Designed for impact. Crafted to be unforgettable — delivering bold visuals that merge heritage with contemporary design.
           </motion.p>
 
           <motion.div
