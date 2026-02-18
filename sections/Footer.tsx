@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
           
           <div className="flex flex-col gap-8 md:text-right">
             <div className="flex md:justify-end gap-6">
-              <a href="#" className="p-3 border border-neutral-100 rounded-full hover:bg-black hover:text-white transition-all">
+              <a href="https://www.instagram.com/artist_akashkamble" className="p-3 border border-neutral-100 rounded-full hover:bg-black hover:text-white transition-all">
                 <Instagram size={20} />
               </a>
               <a href="#" className="p-3 border border-neutral-100 rounded-full hover:bg-black hover:text-white transition-all">
