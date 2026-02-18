@@ -35,14 +35,14 @@ const Footer: React.FC = () => {
               </a>
             </div>
             <p className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-bold">
-              Based in Los Angeles — Open for global projects
+              Based in Mumbai, India
             </p>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 pt-8 border-t border-neutral-50">
           <p className="text-[10px] uppercase tracking-widest font-bold text-neutral-300">
-            © 2026 Elysian Visions Portfolio. All Rights Reserved.
+            © Akash Kamble Arts - All Rights Reserved.
           </p>
           
           <button 
