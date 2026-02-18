@@ -20,7 +20,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
   { id: 'c9', title: 'Babaria Cha Ballaleshwar 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/84zGk2DF/bcb.jpg', description: 'Minimalist exploration of negative space and presence.' },
   
   // Portrait - 6 items
-  { id: 'p1', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/RGvYgP13/commissionedwork4.jpg', description: 'Natural lighting study of character and resilience.' },
+  { id: 'p1', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/RGvYgP13/commissionedwork4.jpg' },
   { id: 'p2', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/wNxLSB7b/commissionedwork5.jpg', description: 'Reflection of a creator within their creation.' },
   { id: 'p3', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/Zzcmh1W5/commissionedwork1.jpg', description: 'Finding stillness in the heart of metropolitan chaos.' },
   { id: 'p4', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/KpTws8v2/commissionedwork2.jpg', description: 'The intersection of fashion and identity.' },
