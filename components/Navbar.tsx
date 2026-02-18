@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         <a href="#" className="text-xl font-bold tracking-tighter uppercase">
-          Elysian<span className="text-neutral-400">.</span>
+          akash<span className="text-neutral-400">.</span>
         </a>
 
         {/* Desktop Nav */}
