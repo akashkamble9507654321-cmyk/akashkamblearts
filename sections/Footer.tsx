@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Instagram, Twitter, Linkedin, ArrowUp } from 'lucide-react';
+import { Instagram, Facebook, Linkedin, ArrowUp } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -27,8 +27,8 @@ const Footer: React.FC = () => {
               <a href="https://www.instagram.com/artist_akashkamble" className="p-3 border border-neutral-100 rounded-full hover:bg-black hover:text-white transition-all">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="p-3 border border-neutral-100 rounded-full hover:bg-black hover:text-white transition-all">
-                <Twitter size={20} />
+              <a href="https://www.facebook.com/share/18AAdQMchT/?mibextid=wwXIfr" className="p-3 border border-neutral-100 rounded-full hover:bg-black hover:text-white transition-all">
+                <Facebook size={20} />
               </a>
               <a href="#" className="p-3 border border-neutral-100 rounded-full hover:bg-black hover:text-white transition-all">
                 <Linkedin size={20} />
