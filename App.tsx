@@ -6,7 +6,6 @@ import SectionHeader from './components/SectionHeader';
 import ImageGrid from './components/ImageGrid';
 import Lightbox from './components/Lightbox';
 import Footer from './sections/Footer';
-import PortfolioAssistant from './components/PortfolioAssistant';
 import { PORTFOLIO_DATA } from './constants';
 import { PortfolioItem } from './types';
 
