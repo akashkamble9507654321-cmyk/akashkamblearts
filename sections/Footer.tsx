@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           <div className="max-w-md">
             <h2 className="heading-font text-5xl mb-8 tracking-tight">Let's create something <span className="italic">creative</span> together.</h2>
             <a 
-              href="mailto:studio@elysian.vision" 
+              href="mailto:akashkambleeee@gmail.com" 
               className="text-xl md:text-2xl font-light underline underline-offset-8 hover:text-neutral-400 transition-colors"
             >
               akashkambleeee@gmail.com
