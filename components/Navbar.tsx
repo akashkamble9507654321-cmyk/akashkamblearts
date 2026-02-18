@@ -1,4 +1,4 @@
-import logo from "../public/newlogoforme.png";
+import logo from "../public/colour.png";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
         {/* LOGO */}
         <a href="#" className="flex items-center">
           <img 
-            src="/newlogoforme.png" 
+            src="/colour.png" 
             alt="Logo" 
             className="h-8 w-auto"
           />
