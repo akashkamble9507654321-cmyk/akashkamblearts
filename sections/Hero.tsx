@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 1.5, duration: 0.5 }}
             className="block"
           >
-            Creative Director & Visual Storyteller
+            Artist Akash Kamble
           </motion.span>
         </span>
         
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
             {/* The Logo PNG - Using a high-quality calligraphic mark placeholder */}
             {/* Note: Replace 'src' with your actual local PNG path */}
             <img 
-              src="https://img.icons8.com/ios-filled/500/000000/devanagari-om.png" 
+              src="public/ak.pngpublic/ak.png" 
               alt="Elysian Logo"
               className="w-full h-full object-contain filter drop-shadow-sm"
               style={{ backfaceVisibility: 'hidden' }}
