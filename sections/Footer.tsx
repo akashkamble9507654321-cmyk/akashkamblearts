@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
               href="mailto:studio@elysian.vision" 
               className="text-xl md:text-2xl font-light underline underline-offset-8 hover:text-neutral-400 transition-colors"
             >
-              studio@elysian.vision
+              akashkambleeee@gmail.com
             </a>
           </div>
           
