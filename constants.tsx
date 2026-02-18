@@ -13,7 +13,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
   { id: 'c2', title: 'Khetwadi Cha Raja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/mrwfNVZL/kcr.jpg', description: 'A study on architectural permanence in shifting landscapes.' },
   { id: 'c3', title: 'Malwani Cha Maharaja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/v4LjJS3x/mcm.jpg', description: 'Organic shapes interpreted through a mathematical lens.' },
   { id: 'c4', title: 'Grantroad Cha Mahaganpati 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/7xkkQzHV/gcm.jpg', description: 'Capturing movement within static mediums.' },
-  { id: 'c5', title: 'Mumbai Cha Ladka Shubhankar 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/zVww0jYC/mcls.jpg', description: 'A visualization of particulate matter and memory.' },
+  { id: 'c5', title: 'Parel Cha Samrat 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/V0CspSyR/pcs.jpg', description: 'A visualization of particulate matter and memory.' },
   { id: 'c6', title: 'Garden Cha Raja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/p6K2jSBM/gkr.jpg', description: 'Exploring patterns of growth in generative systems.' },
   { id: 'c7', title: 'Narayan Cha Raja 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/YBDhPBKH/nncr.jpg', description: 'Interstellar debris reimagined as digital sculpture.' },
   { id: 'c8', title: 'Mumbai Cha Ladka Shubhankar 2025', category: 'conceptual', imageUrl: 'https://i.ibb.co/zVww0jYC/mcls.jpg', description: 'Distorting time through sequential visual frames.' },
