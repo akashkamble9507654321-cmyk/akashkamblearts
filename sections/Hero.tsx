@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
             {/* The Logo PNG - Using a high-quality calligraphic mark placeholder */}
             {/* Note: Replace 'src' with your actual local PNG path */}
             <img 
-              src="public/ak.pngpublic/ak.png" 
+              src="ak.png" 
               alt="Elysian Logo"
               className="w-full h-full object-contain filter drop-shadow-sm"
               style={{ backfaceVisibility: 'hidden' }}
