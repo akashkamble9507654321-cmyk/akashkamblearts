@@ -29,78 +29,80 @@ const App: React.FC = () => {
   );
 
   return (
-    <div
-      className="relative min-h-screen overflow-x-hidden bg-cover bg-center"
-      style={{ backgroundImage: "url('/bgg.png')" }}
-    >
-      {/* Global Dark Overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+    <div className="relative min-h-screen overflow-x-hidden">
 
-      <div className="relative z-10">
-        <Navbar />
+      {/* FIXED GLOBAL BACKGROUND */}
+      <div
+        className="fixed inset-0 -z-10 bg-cover bg-center"
+        style={{ backgroundImage: "url('/bgg.png')" }}
+      />
 
-        <main>
-          <Suspense fallback={<div className="h-screen" />}>
-            <Hero />
-          </Suspense>
+      {/* SINGLE OVERLAY (same everywhere) */}
+      <div className="fixed inset-0 -z-10 bg-black/55" />
 
-          <Suspense fallback={<div className="h-40" />}>
-            <section
-              id="conceptual"
-              className="py-24 md:py-40 px-6 md:px-12"
-            >
-              <div className="max-w-7xl mx-auto">
-                <SectionHeader
-                  title="Conceptual Sketches"
-                  subtitle="Culturally Rooted Conceptual Artworks"
-                />
-                <ImageGrid
-                  items={conceptualItems}
-                  onItemClick={setSelectedItem}
-                />
-              </div>
-            </section>
-          </Suspense>
+      <Navbar />
 
-          <Suspense fallback={<div className="h-40" />}>
-            <section
-              id="portrait"
-              className="py-24 md:py-40 px-6 md:px-12"
-            >
-              <div className="max-w-7xl mx-auto">
-                <SectionHeader
-                  title="Portraits"
-                  subtitle="Portrait Art That Preserves Identity"
-                />
-                <ImageGrid
-                  items={portraitItems}
-                  onItemClick={setSelectedItem}
-                />
-              </div>
-            </section>
-          </Suspense>
+      <main className="relative z-10">
+        <Suspense fallback={<div className="h-screen" />}>
+          <Hero />
+        </Suspense>
 
-          <Suspense fallback={<div className="h-40" />}>
-            <section
-              id="graphics"
-              className="py-24 md:py-40 px-6 md:px-12"
-            >
-              <div className="max-w-7xl mx-auto">
-                <SectionHeader
-                  title="Graphics Work"
-                  subtitle="Where Ideas Take Shape"
-                />
-                <ImageGrid
-                  items={graphicsItems}
-                  onItemClick={setSelectedItem}
-                />
-              </div>
-            </section>
-          </Suspense>
-        </main>
+        <Suspense fallback={<div className="h-40" />}>
+          <section
+            id="conceptual"
+            className="py-24 md:py-40 px-6 md:px-12"
+          >
+            <div className="max-w-7xl mx-auto">
+              <SectionHeader
+                title="Conceptual Sketches"
+                subtitle="Culturally Rooted Conceptual Artworks"
+              />
+              <ImageGrid
+                items={conceptualItems}
+                onItemClick={setSelectedItem}
+              />
+            </div>
+          </section>
+        </Suspense>
 
-        <Footer />
-      </div>
+        <Suspense fallback={<div className="h-40" />}>
+          <section
+            id="portrait"
+            className="py-24 md:py-40 px-6 md:px-12"
+          >
+            <div className="max-w-7xl mx-auto">
+              <SectionHeader
+                title="Portraits"
+                subtitle="Portrait Art That Preserves Identity"
+              />
+              <ImageGrid
+                items={portraitItems}
+                onItemClick={setSelectedItem}
+              />
+            </div>
+          </section>
+        </Suspense>
+
+        <Suspense fallback={<div className="h-40" />}>
+          <section
+            id="graphics"
+            className="py-24 md:py-40 px-6 md:px-12"
+          >
+            <div className="max-w-7xl mx-auto">
+              <SectionHeader
+                title="Graphics Work"
+                subtitle="Where Ideas Take Shape"
+              />
+              <ImageGrid
+                items={graphicsItems}
+                onItemClick={setSelectedItem}
+              />
+            </div>
+          </section>
+        </Suspense>
+      </main>
+
+      <Footer />
 
       {selectedItem && (
         <Suspense fallback={null}>
