@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         transition={{ duration: 0.6 }}
         className="max-w-5xl flex flex-col items-center"
       >
-    <span className="inline-block text-xs font-bold uppercase tracking-[0.3em] text-amber-200 mb-10 [text-shadow:0_2px_10px_rgba(0,0,0,0.8)]">
+    <span className="inline-block text-xs font-bold uppercase tracking-[0.3em] text-neutral-200 mb-10 ">
   Artist Akash Kamble
 </span>
 
