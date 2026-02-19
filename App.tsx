@@ -13,6 +13,7 @@ const Lightbox = lazy(() => import('./components/Lightbox'));
 const App: React.FC = () => {
   const [selectedItem, setSelectedItem] = useState<PortfolioItem | null>(null);
 
+  // Memoized filters
   const conceptualItems = useMemo(
     () => PORTFOLIO_DATA.filter(item => item.category === 'conceptual'),
     []
@@ -30,27 +31,19 @@ const App: React.FC = () => {
 
   return (
     <div className="relative min-h-screen overflow-x-hidden">
-
-      {/* FIXED GLOBAL BACKGROUND */}
-      <div
-        className="fixed inset-0 -z-10 bg-cover bg-center"
-        style={{ backgroundImage: "url('/bgg.png')" }}
-      />
-
-      {/* SINGLE OVERLAY (same everywhere) */}
-      <div className="fixed inset-0 -z-10 bg-black/0" />
-
       <Navbar />
 
-      <main className="relative z-10">
+      <main>
+        {/* Hero Section */}
         <Suspense fallback={<div className="h-screen" />}>
           <Hero />
         </Suspense>
 
+        {/* Conceptual Section */}
         <Suspense fallback={<div className="h-40" />}>
           <section
             id="conceptual"
-            className="py-24 md:py-40 px-6 md:px-12"
+            className="py-24 md:py-40 px-6 md:px-12 bg-white"
           >
             <div className="max-w-7xl mx-auto">
               <SectionHeader
@@ -65,6 +58,7 @@ const App: React.FC = () => {
           </section>
         </Suspense>
 
+        {/* Portrait Section */}
         <Suspense fallback={<div className="h-40" />}>
           <section
             id="portrait"
@@ -83,10 +77,11 @@ const App: React.FC = () => {
           </section>
         </Suspense>
 
+        {/* Graphics Section */}
         <Suspense fallback={<div className="h-40" />}>
           <section
             id="graphics"
-            className="py-24 md:py-40 px-6 md:px-12"
+            className="py-24 md:py-40 px-6 md:px-12 bg-white"
           >
             <div className="max-w-7xl mx-auto">
               <SectionHeader
