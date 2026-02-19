@@ -28,13 +28,13 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
   { id: 'p6', title: 'Commissioned Work', category: 'portrait', imageUrl: 'https://i.ibb.co/21LpkHNT/commissionedwork6.jpg' },
   
   // Graphics - 9 items
-  { id: 'g1', title: 'Neo-Tokyo 2044', category: 'graphics', imageUrl: 'https://i.ibb.co/CKm5phRL/p1.jpg', description: 'Cinematic poster design for a speculative future.' },
-  { id: 'g2', title: 'Vanguard Music Festival', category: 'graphics', imageUrl: 'https://i.ibb.co/hFR29VZ9/p3.jpg', description: 'Experimental typography and vibrant color scales.' },
-  { id: 'g3', title: 'Minimalist Branding', category: 'graphics', imageUrl: 'https://i.ibb.co/fGDS54xp/p2.jpg', description: 'Identity system for an high-end luxury atelier.' },
-  { id: 'g4', title: 'Cyber-Noir Series', category: 'graphics', imageUrl: 'https://i.ibb.co/KcCbyZj8/p4.jpg', description: 'Digital illustration exploring high-contrast futuristic aesthetics.' },
-  { id: 'g5', title: 'Liquid Motion Identity', category: 'graphics', imageUrl: 'https://i.ibb.co/Ngs2pMdm/dhanteras.jpg', description: 'Fluid branding for a cutting-edge motion studio.' },
-  { id: 'g6', title: 'Eclipse Editorial', category: 'graphics', imageUrl: 'https://i.ibb.co/svTNg4H0/sukhkarta-mediapartnership.jpg', description: 'High-fashion editorial layout with brutalist graphic elements.' },
-  { id: 'g7', title: 'Synthwave Reverie', category: 'graphics', imageUrl: 'https://i.ibb.co/C3Mj0Mr1/laxmipoojan.jpg', description: 'Nostalgic graphics with a 2026 technical twist.' },
-  { id: 'g8', title: 'Abstract Geometry', category: 'graphics', imageUrl: 'https://i.ibb.co/TqJC4bRn/UPNAGARCHA-RAJA.jpg', description: 'A collection of mathematically generated visual patterns.' },
-  { id: 'g9', title: 'Apex Global', category: 'graphics', imageUrl: 'https://i.ibb.co/HDLYxr2V/mumbaichapeshwa.jpg', description: 'Corporate identity for a speculative sustainable energy firm.' },
+  { id: 'g1', title: 'T-shirt Booking Poster', category: 'graphics', imageUrl: 'https://i.ibb.co/CKm5phRL/p1.jpg', description: 'Cinematic poster design for a speculative future.' },
+  { id: 'g2', title: 'Pooja Invitation Poster', category: 'graphics', imageUrl: 'https://i.ibb.co/hFR29VZ9/p3.jpg', description: 'Experimental typography and vibrant color scales.' },
+  { id: 'g3', title: 'Booking Poster', category: 'graphics', imageUrl: 'https://i.ibb.co/fGDS54xp/p2.jpg', description: 'Identity system for an high-end luxury atelier.' },
+  { id: 'g4', title: 'Festivity Post', category: 'graphics', imageUrl: 'https://i.ibb.co/KcCbyZj8/p4.jpg', description: 'Digital illustration exploring high-contrast futuristic aesthetics.' },
+  { id: 'g5', title: 'Festivity Post', category: 'graphics', imageUrl: 'https://i.ibb.co/Ngs2pMdm/dhanteras.jpg', description: 'Fluid branding for a cutting-edge motion studio.' },
+  { id: 'g6', title: 'Social Media Post', category: 'graphics', imageUrl: 'https://i.ibb.co/svTNg4H0/sukhkarta-mediapartnership.jpg', description: 'High-fashion editorial layout with brutalist graphic elements.' },
+  { id: 'g7', title: 'Festivity Post', category: 'graphics', imageUrl: 'https://i.ibb.co/C3Mj0Mr1/laxmipoojan.jpg', description: 'Nostalgic graphics with a 2026 technical twist.' },
+  { id: 'g8', title: 'Social Media Post', category: 'graphics', imageUrl: 'https://i.ibb.co/TqJC4bRn/UPNAGARCHA-RAJA.jpg', description: 'A collection of mathematically generated visual patterns.' },
+  { id: 'g9', title: 'Social Media Post', category: 'graphics', imageUrl: 'https://i.ibb.co/HDLYxr2V/mumbaichapeshwa.jpg', description: 'Corporate identity for a speculative sustainable energy firm.' },
 ];
