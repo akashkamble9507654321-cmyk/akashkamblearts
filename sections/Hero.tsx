@@ -5,14 +5,11 @@ import { ArrowDownRight } from 'lucide-react';
 const Hero: React.FC = () => {
   return (
     <section
-    className="relative min-h-screen flex flex-col justify-center items-center px-6 md:px-12 text-center pt-20 overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/bgg.png')" }}
->
-  {/* Subtle overlay for contrast */}
-  <div className="absolute inset-0 bg-white/30"></div>
-
+      className="relative min-h-screen flex flex-col justify-center items-center px-6 md:px-12 text-center pt-20 overflow-hidden bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/bgg.png')" }}
     >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-white/75 backdrop-blur-sm"></div>
+      {/* Single subtle overlay (light background optimized) */}
+      <div className="absolute inset-0 bg-white/30"></div>
 
       <motion.div
         initial={{ opacity: 0 }}
@@ -20,7 +17,7 @@ const Hero: React.FC = () => {
         transition={{ duration: 0.6 }}
         className="relative z-10 max-w-5xl flex flex-col items-center"
       >
-        <span className="inline-block text-xs font-bold uppercase tracking-[0.3em] text-neutral-500 mb-10">
+        <span className="inline-block text-xs font-bold uppercase tracking-[0.3em] text-neutral-600 mb-10">
           Artist Akash Kamble
         </span>
 
@@ -46,7 +43,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
-            className="max-w-2xl text-lg md:text-xl text-neutral-600 leading-relaxed font-light"
+            className="max-w-2xl text-lg md:text-xl text-neutral-700 leading-relaxed font-light"
           >
             Rooted in culture. Designed for impact. Crafted to be unforgettable — delivering bold visuals that merge heritage with contemporary design.
           </motion.p>
@@ -59,7 +56,7 @@ const Hero: React.FC = () => {
           >
             <a
               href="#conceptual"
-              className="bg-black text-white px-10 py-5 text-xs font-bold uppercase tracking-widest flex items-center gap-3 group hover:scale-105 transition-transform"
+              className="bg-black text-white px-10 py-5 text-xs font-bold uppercase tracking-widest flex items-center gap-3 hover:scale-105 transition-transform"
             >
               Explore My Work
               <ArrowDownRight size={16} />
@@ -67,7 +64,7 @@ const Hero: React.FC = () => {
 
             <a
               href="https://wa.me/+918591747530"
-              className="border border-neutral-300 bg-white/50 backdrop-blur-sm px-10 py-5 text-xs font-bold uppercase tracking-widest hover:border-black transition-colors"
+              className="border border-neutral-300 bg-white/60 px-10 py-5 text-xs font-bold uppercase tracking-widest hover:border-black transition-colors"
             >
               Let's Collaborate
             </a>
