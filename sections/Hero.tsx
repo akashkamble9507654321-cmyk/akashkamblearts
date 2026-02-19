@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
 
             <a
               href="https://wa.me/+918591747530"
-              className="border border-black text-black px-10 py-5 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all"
+              className="border border-black text-white px-10 py-5 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all"
             >
               Let's Collaborate
             </a>
