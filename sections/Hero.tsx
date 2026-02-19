@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         transition={{ duration: 0.6 }}
         className="max-w-5xl flex flex-col items-center"
       >
-    <span className="inline-block text-xs font-bold uppercase tracking-[0.3em] text-neutral-200 mb-10 ">
+    <span className="inline-block text-xs font-bold uppercase tracking-[0.3em] text-neutral-500 mb-10 ">
   Artist Akash Kamble
 </span>
 
@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
 
             <a
               href="https://wa.me/+918591747530"
-              className="border border-white text-white px-10 py-5 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all"
+              className="border border-black text-black px-10 py-5 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all"
             >
               Let's Collaborate
             </a>
