@@ -38,7 +38,7 @@ const App: React.FC = () => {
       />
 
       {/* SINGLE OVERLAY (same everywhere) */}
-      <div className="fixed inset-0 -z-10 bg-black/55" />
+      <div className="fixed inset-0 -z-10 bg-black/10" />
 
       <Navbar />
 
