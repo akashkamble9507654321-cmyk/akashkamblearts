@@ -34,14 +34,14 @@ const Footer: React.FC = () => {
                 <MessageCircleMore size={20} />
               </a>
             </div>
-            <p className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-bold">
+            <p className="text-xs uppercase tracking-[0.2em] text-neutral-500 font-bold">
               Based in Mumbai, India
             </p>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 pt-8 border-t border-neutral-50">
-          <p className="text-[10px] uppercase tracking-widest font-bold text-neutral-300">
+          <p className="text-[10px] uppercase tracking-widest font-bold text-neutral-500">
             © Akash Kamble Arts - All Rights Reserved.
           </p>
           
