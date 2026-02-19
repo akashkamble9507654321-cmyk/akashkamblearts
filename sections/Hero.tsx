@@ -5,8 +5,7 @@ import { ArrowDownRight } from 'lucide-react';
 const Hero: React.FC = () => {
   return (
     <section
-      <section
-  className="relative min-h-screen flex flex-col justify-center items-center px-6 md:px-12 text-center pt-20 overflow-hidden bg-cover bg-center bg-no-repeat"
+     className="relative min-h-screen flex flex-col justify-center items-center px-6 md:px-12 text-center pt-20 overflow-hidden bg-cover bg-center bg-no-repeat"
   style={{
     backgroundImage: "url('/bgg.png')",
     backgroundSize: "cover",
