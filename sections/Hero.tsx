@@ -4,14 +4,20 @@ import { ArrowDownRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center px-6 md:px-12 text-center pt-20 relative overflow-hidden">
+    <section
+      className="relative min-h-screen flex flex-col justify-center items-center px-6 md:px-12 text-center pt-20 overflow-hidden bg-cover bg-center"
+      style={{ backgroundImage: "url('/bgg.png')" }} // <-- change to your bg image name
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-white/75 backdrop-blur-sm"></div>
+
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6 }}
-        className="max-w-5xl flex flex-col items-center"
+        className="relative z-10 max-w-5xl flex flex-col items-center"
       >
-        <span className="inline-block text-xs font-bold uppercase tracking-[0.3em] text-neutral-400 mb-10">
+        <span className="inline-block text-xs font-bold uppercase tracking-[0.3em] text-neutral-500 mb-10">
           Artist Akash Kamble
         </span>
 
@@ -37,7 +43,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
-            className="max-w-2xl text-lg md:text-xl text-neutral-500 leading-relaxed font-light"
+            className="max-w-2xl text-lg md:text-xl text-neutral-600 leading-relaxed font-light"
           >
             Rooted in culture. Designed for impact. Crafted to be unforgettable — delivering bold visuals that merge heritage with contemporary design.
           </motion.p>
@@ -58,15 +64,13 @@ const Hero: React.FC = () => {
 
             <a
               href="https://wa.me/+918591747530"
-              className="border border-neutral-200 px-10 py-5 text-xs font-bold uppercase tracking-widest hover:border-black transition-colors"
+              className="border border-neutral-300 bg-white/50 backdrop-blur-sm px-10 py-5 text-xs font-bold uppercase tracking-widest hover:border-black transition-colors"
             >
               Let's Collaborate
             </a>
           </motion.div>
         </div>
       </motion.div>
-
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 w-[80vw] h-[80vh] bg-gradient-to-tr from-neutral-100 to-white/0 rounded-full blur-3xl opacity-30" />
     </section>
   );
 };
