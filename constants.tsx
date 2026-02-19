@@ -30,7 +30,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
   // Graphics - 9 items
   { id: 'g1', title: 'T-shirt Booking Poster', category: 'graphics', imageUrl: 'https://i.ibb.co/CKm5phRL/p1.jpg', description: 'Cinematic poster design for a speculative future.' },
   { id: 'g2', title: 'Pooja Invitation Poster', category: 'graphics', imageUrl: 'https://i.ibb.co/hFR29VZ9/p3.jpg', description: 'Experimental typography and vibrant color scales.' },
-  { id: 'g3', title: 'Booking Poster', category: 'graphics', imageUrl: 'https://i.ibb.co/fGDS54xp/p2.jpg', description: 'Identity system for an high-end luxury atelier.' },
+  { id: 'g3', title: 'Idol Booking Poster', category: 'graphics', imageUrl: 'https://i.ibb.co/fGDS54xp/p2.jpg', description: 'Identity system for an high-end luxury atelier.' },
   { id: 'g4', title: 'Festivity Post', category: 'graphics', imageUrl: 'https://i.ibb.co/KcCbyZj8/p4.jpg', description: 'Digital illustration exploring high-contrast futuristic aesthetics.' },
   { id: 'g5', title: 'Festivity Post', category: 'graphics', imageUrl: 'https://i.ibb.co/Ngs2pMdm/dhanteras.jpg', description: 'Fluid branding for a cutting-edge motion studio.' },
   { id: 'g6', title: 'Social Media Post', category: 'graphics', imageUrl: 'https://i.ibb.co/svTNg4H0/sukhkarta-mediapartnership.jpg', description: 'High-fashion editorial layout with brutalist graphic elements.' },
